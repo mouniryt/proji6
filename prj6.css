@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(222, 239, 231, 0.655);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height:80px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+
+}
+ul li{
+    display: inline-block;
+    margin: 5px 10px 0px 10px ;
+}
+
+nav span a{
+    text-decoration: none;
+    color: #0d2d39;
+    font-size: 25px;
+    text-transform:capitalize;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #0d2d39;
+
+}
+ul li a{
+    text-transform: capitalize;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+}
+.content .header{
+    display: flex;
+    height: 100vh;
+    background: #00000014;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+}
+
+
+.header-data .p1{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0ac694;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.header-data h1{
+    margin-top:15px ;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #153448;
+}
+.header-data .p2{
+    margin-top:12px ;
+    font-size: 20px;
+    color: #153448;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.icons{
+    margin-top: 11px;
+
+}
+.icons a{
+    font-size: 30px;
+    margin-right: 15px;
+    color: #374956;
+}
+.header-data .a1{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    background-color: #0ac694;
+
+}
+.imm{
+    border-radius: 30px;
+max-width: 450px;
+}
+.cont{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;  
+}
+.about{
+    padding: 6rem 0;
+    transition: all 0.3s ease;
+
+}
+.about h2{
+    text-align: center;
+    font-size: 38px;
+    color: #153448;
+    text-transform: capitalize;
+    font-family:sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about hr{
+    width: 100px;
+    height: 3px;
+    background-color: #15F5BA;
+    border: none;
+    margin: 5px auto 0;
+}
+
+.info{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 3rem;
+}
+.name{
+    color: #0ac694;
+}
+
+.descreption h3{
+    font-size: 28px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    
+}
+.descreption p{
+    color: #373A40;
+    line-height: 1.6;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contact p{
+    color: #373A40;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+
+}
+.contact p b{
+    color: rgb(0, 0, 0);
+}
+.sk,.our-pr{
+    background-color: #0d2d39;
+    max-width: 100%;
+}
+.sk,.our-pr,.support{    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.sk h2,.our-pr h2{
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Saira',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sk h2 span,.our-pr h2 span,.support h2 span{
+    color: #0ac694;
+}
+.sk hr,.services hr,.our-pr hr,.support hr{
+    width: 100px;
+    height: 3px;
+    border: none;
+    background-color: #0ac694;
+    margin: 8px auto 20px;
+}
+.skills{
+    background-color: #061b1a;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:2rem ;
+    gap: 2rem;
+
+}
+.html:hover,.css:hover,.js:hover,.insta:hover,.git:hover,.react:hover,.python:hover,.wordpres:hover{
+    box-shadow: 10px 10px 10px #00f4ab0c;
+}
+.html,.css,.js,.insta,.git,.react,.python,.wordpres{
+    border-radius: 8px;
+    background-color: black;
+    color: #ddd;
+    display: flex;
+    flex-direction:column;
+    padding: 0.5rem 1rem 1rem;
+    transition: all 0.3s ease;
+    
+}
+.html i,.css i,.js i,.insta i,.git i,.react i,.python i,.wordpres i{
+    margin: auto;
+    font-size: 50px;
+}
+.html h3,.css h3,.js h3,.insta h3,.git h3,.react h3,.python h3,.wordpres h3{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 18px;
+    font-family: 'Saira',sans-serif;
+    text-transform: uppercase;
+}
+.services{
+    max-width: 1100px;
+    margin: auto;
+    padding: 6rem 0;
+}
+.services h2{
+    text-align: center;
+    font-size: 38px;
+    color: #153448;
+    text-transform: capitalize;
+    font-family: 'Saira',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.sp2{
+    color: #0ac694;
+}
+.services hr{
+    margin-bottom: 3rem;
+}
+.serv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.serv .ser1,.serv .ser2,.serv .ser3,.serv .ser4,.serv .ser5,.serv .ser6{
+    min-height: 250px;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px #2e383b88;
+    transition: all 0.3s ease;
+}
+.serv .ser1 img,.serv .ser2 img,.serv .ser3 img,.serv .ser4 img,.serv .ser5 img,.serv .ser6 img{
+width: 80px;
+height: 80px;
+}
+.serv .ser1:hover,.serv .ser2:hover,.serv .ser3:hover,.serv .ser4:hover,.serv .ser5:hover,.serv .ser6:hover{
+    background-color: #FFF5E1;
+}
+.serv .ser1 h3,.serv .ser2 h3,.serv .ser3 h3,.serv .ser4 h3,.serv .ser5 h3,.serv .ser6 h3{
+    color: #153448;
+    text-transform: capitalize;
+    font-family: 'Saira',sans-serif;
+    font-weight: 700;
+
+}
+.serv .ser1 p,.serv .ser2 p,.serv .ser3 p,.serv .ser4 p,.serv .ser5 p,.serv .ser6 p{
+    font-family: 'Saira',sans-serif;
+    color: #153448;
+    text-transform:lowercase;
+    font-weight: 500;
+
+}
+.imm2{
+    max-width: 350px;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px ;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    margin: auto;
+    gap: 10px;
+    padding-top: 2rem;
+}
+.pr{
+    max-width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+.hh3{
+    margin: 15px 0px 14px 10px;
+    color: #153448;
+    font-size: 20px;
+    font-family: 'Saira',sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.aa3{
+    display: inline-block;
+margin-left: 10px;
+text-decoration: none;
+margin-bottom: 2rem;
+color: #0ac694;
+text-transform: capitalize;
+font-family: 'Saira',sans-serif;
+font-weight: 600;
+}
+.pr:hover{
+box-shadow: 0px 0px 8px #0ac694;
+}
+.support{
+    max-width: 100%;
+}
+.support h2{
+    text-align: center;
+    font-size: 38px;
+    color: #153448;
+    text-transform: capitalize;
+    font-family: 'Saira',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contact2{
+max-width: 1100px;
+background-color: #ffffff;
+margin: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.contact2 img{
+    width: 500px;
+    height: 430px;
+}
+.contact2 form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin-top:3rem ;
+}
+form #name,#email,#message{
+    padding: 8px;
+    color: black;
+    margin-bottom: 1rem;
+    width: 400px;
+    border: 3px;
+    background-color: #d3e3df93;
+}
+.sub{
+    border: none;
+    background-color: #0ac694;
+    width: 100px;
+    color: #ddd;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
